@@ -1,0 +1,78 @@
+img {
+    max-width: 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkkhaki;
+}
+
+#header-left {
+    max-width: 180px;
+    text-align: center;
+    margin-left: 2%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+#header-right{
+    display: flex;
+    justify-content: right;
+    margin-left: 8%;
+    margin-right: 2%;
+}
+
+body {
+    background-color: darkgoldenrod;
+}
+
+#main-list {
+    display: flex;    
+    justify-content: space-between;
+
+    background-color: darkkhaki;
+    margin: 10px;
+}
+
+#main-list-text {
+    list-style-type: none;
+}
+
+.list-image {
+    border: 4px solid goldenrod;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 9em;
+    margin: 10px;
+}
+
+.cart-button {
+    display: flex; 
+    position: absolute;
+    right: 30px;     
+    outline: none; 
+    background-color: lightcoral; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px;
+    border-radius: 10px; 
+    font-size: 18px; 
+}
+
+.cart-button:hover {
+    background-color: rgba(240, 128, 128, 0.555);
+    border: none; 
+}
